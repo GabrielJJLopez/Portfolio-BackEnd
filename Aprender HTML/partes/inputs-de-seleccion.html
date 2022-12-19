@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- 
+    radio -> Permite seleccionar una unica opcion de una lista de opciones relacionadas, hay que vincular los label con un name en comun
+
+    checkbox -> Permite seleccionar varias opciones de una lista de opciones relacionadas
+
+    select -> Crea una lista de opciones donde podemos seleccionar una o varias opciones
+
+    Cada opcion ira dentro de una etiqueta <option> </option>
+
+    Si tenemos muchas opciones podemos ordenarlas por categorias a traves de la etiqueta <optgroup> con el atributo label para nombrar la categoria
+ -->
+<body>
+    <h1>Elementros seleccionables</h1>
+    <form>
+        <h2>Genero</h2>
+        <lab el>
+            Masculino
+            <input type="radio" name="gender" value="masculino" checked>
+        </label>
+        <label>
+            Femeninio
+            <input type="radio" name="gender" value="femenino">
+        </label>
+        <label>
+            Desconocido
+            <input type="radio" name="gender" value="desconocido">
+        </label>
+
+        <h2>Lenguyajes que conoces</h2>
+
+        <label>
+            HTML
+            <input type="checkbox" name="languages" value="html">
+        </label>
+        <label>
+            CSS
+            <input type="checkbox" name="languages" value="css">
+        </label>
+        <label>
+            JavaScript
+            <input type="checkbox" name="languages" value="javascript">
+        </label>
+    </form>
+</body>
+</html>
