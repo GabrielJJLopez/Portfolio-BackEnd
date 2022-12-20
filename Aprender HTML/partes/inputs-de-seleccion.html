@@ -20,7 +20,43 @@
 <body>
     <h1>Elementros seleccionables</h1>
     <form>
-        <h2>Genero</h2>
+        <input type="list" list="pets">
+        <datalist id="pets">
+                <option value="perro"></option>
+                <option value="gato"></option>
+                <option value="hamster"></option>
+                <option value="conejo"></option>
+                <option value="loro"></option>
+                <option value="canario"></option>
+                <option value="serpiente"></option>
+                <option value="tarantula"></option>
+        </datalist>
+
+        <!-- <select name="lengujajes" multiple>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select> -->
+
+        <!-- <select name="mascotas">
+            <optgroup label="4 patas">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="hamster">Hamster</option>
+                <option value="conejo">Conejo</option>
+            </optgroup>
+            <optgroup label="aves">
+                <option value="loro">Loro</option>
+                <option value="canario">Canario</option>
+            </optgroup>
+            <optgroup label="otras">
+                <option value="serpiente">Serpiente</option>
+                <option value="tarantula">Tarantula</option>
+            </optgroup>
+        </select> -->
+
+        <!-- <h2>Genero</h2>
+
         <lab el>
             Masculino
             <input type="radio" name="gender" value="masculino" checked>
@@ -32,9 +68,9 @@
         <label>
             Desconocido
             <input type="radio" name="gender" value="desconocido">
-        </label>
+        </label> -->
 
-        <h2>Lenguyajes que conoces</h2>
+        <!-- <h2>Lenguyajes que conoces</h2>
 
         <label>
             HTML
@@ -47,7 +83,7 @@
         <label>
             JavaScript
             <input type="checkbox" name="languages" value="javascript">
-        </label>
+        </label> -->
     </form>
 </body>
 </html>
